@@ -35,28 +35,28 @@
       url: workbook/overview.html
 
     - title: Setup and Installation
-      url: workbook/setup/index.html
+      url: workbook/installation.html
 
     - title: The Power of Python
-      url: workbook/powerofpython/index.html
+      url: workbook/power-of-python.html
 
     - title: Language Basics
-      url: workbook/languagebasics/index.html
+      url: workbook/language-basics.html
 
     - title: Creating Programs
-      url: workbook/creatingprograms/index.html
+      url: workbook/creating-programs.html
 
     - title: Interactivity
-      url: workbook/interactivity/index.html
+      url: workbook/interactivity.html
 
     - title: Game Loops
-      url: workbook/gameloops/index.html
+      url: workbook/game-loops.html
 
     - title: Customisation
-      url: workbook/customisation/index.html
+      url: workbook/customisation.html
 
     - title: Summary
-      url: workbook/summary/index.html
+      url: workbook/summary.html
 
 
 - title: Projects
