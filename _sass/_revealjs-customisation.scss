@@ -1,0 +1,24 @@
+.reveal {
+	width: 70%;
+}
+
+.inline-notes {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 30%;
+	background: #fff;
+	z-index: 8;
+	padding: 20px 30px;
+	box-sizing: border-box;
+}
+
+.reveal .slides > section {
+
+	padding: 0;
+	
+	p {
+		margin: 0;
+	}
+}

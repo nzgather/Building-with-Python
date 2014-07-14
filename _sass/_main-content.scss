@@ -1,0 +1,13 @@
+#pageContent {
+	margin-top: 40px;
+
+	p {
+		margin: 0 0 15px 0;
+	}
+
+	& > p:first-of-type {
+		color: $first-paragraph-color;
+		font-size: 120%;
+		margin: 0 0 20px 0;
+	}
+}

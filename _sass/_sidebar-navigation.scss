@@ -1,0 +1,26 @@
+#sidebar .nav {
+
+	li a {
+		margin: 2px 0;
+	}
+
+	li.active > a {
+		border-left: 3px solid $link-hover;
+		border-bottom: 1px solid $link-hover;
+		color: $link-hover;
+	}
+
+	li.subsection a {
+		display: block;
+		padding-left: 2em;
+		font-size: 80%;
+		//border-bottom: 1px solid rgba(0,0,0,0.1);
+	}
+
+	li.subsection.active a {
+		border: 0;
+		background-color: rgba( $link-hover, .1 );
+		color: $link-hover;
+	}
+
+}

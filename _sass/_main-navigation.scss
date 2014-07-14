@@ -1,0 +1,40 @@
+#mainNavigation {
+
+ 	background: #041221;
+ 	border: none;
+
+ 	.avatar {
+ 		height: 100%;
+ 		border-radius: 100%;
+ 	}
+
+ 	.navbar-brand {
+ 		color: #fff;
+ 		font-size: 120%;
+ 	}
+
+ 	.nav {
+
+ 		a {
+ 			font-family: Lunchbox,"Helvetica Neue",Arial,sans-serif;
+			font-size: 1.6rem;
+			color: #dce2b1;
+			transition: all 0.2s ease 0s;
+ 		}
+
+ 		a:hover {
+ 			transform: scale(1.2) translateZ(0px);
+ 		}
+
+ 		.active a {
+ 			color: #eead5e;
+			background: none;
+			border-bottom: 4px solid #eead5e;
+ 		}
+
+ 		.active a:hover {
+			transform: none;
+		}
+
+ 	}
+}

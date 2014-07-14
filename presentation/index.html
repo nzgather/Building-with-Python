@@ -1,0 +1,25 @@
+---
+layout: slideshow
+title: Presentation
+---
+
+	{% for section in site.data.presentation %}
+		{% for slide in section.slides %}
+
+		<!-- slide -->
+		<section 
+			class="{{ slide.class }}" 
+			data-markdown="{{ site.baseurl }}/presentation/{{ section.sectionname }}/{{ slide.filename }}" 
+			data-notes="^Note:" 
+			
+			{% if slide.class == 'title-slide' %}
+				id="{{ section.sectionname }}"
+				data-background="{{ site.baseurl }}/submodules/revealjs/css/theme/images/gather_bg_orange.png" 
+				data-background-size="153px" 
+				data-background-repeat="repeat"
+			{% endif %}
+		>
+		</section>
+
+		{% endfor %}
+	{% endfor %}

@@ -1,0 +1,72 @@
+- title: Introduction
+  url: index.html
+
+
+- title: Presentation
+  url: presentation/overview.html
+  subpages:
+
+    - title: The Power of Python
+      url: presentation/#/pythonfoundations
+
+    - title: Language Basics
+      url: presentation/#/languagebasics
+
+    - title: Application Structure
+      url: presentation/#/appstructure
+
+    - title: Interactivity
+      url: presentation/#/interactivity
+
+    - title: Game Loop
+      url: presentation/#/gameloop
+
+    - title: Customisation
+      url: presentation/#/customisation
+
+
+
+
+- title: Workbook
+  url: workbook/overview.html
+  subpages:
+
+    - title: Workbook Overview
+      url: workbook/overview.html
+
+    - title: Setup and Installation
+      url: workbook/setup/index.html
+
+    - title: The Power of Python
+      url: workbook/powerofpython/index.html
+
+    - title: Language Basics
+      url: workbook/languagebasics/index.html
+
+    - title: Creating Programs
+      url: workbook/creatingprograms/index.html
+
+    - title: Interactivity
+      url: workbook/interactivity/index.html
+
+    - title: Game Loops
+      url: workbook/gameloops/index.html
+
+    - title: Customisation
+      url: workbook/customisation/index.html
+
+    - title: Summary
+      url: workbook/summary/index.html
+
+
+- title: Projects
+  url: projects/overview.html
+
+
+
+
+- title: Community
+  url: community/index.html
+
+
+

@@ -1,0 +1,9 @@
+#sidebar {
+	padding-top: 40px;
+	position: relative;
+
+	.sidebar-content.affix {
+		position: fixed;
+		top: 70px;
+	}
+}

@@ -1,0 +1,54 @@
+<section id="sidebar" class="col-md-3">
+
+	<div class="sidebar-content" data-spy="affix" data-offset-top="255" data-offset-bottom="200"> 
+
+		<!-- main navigation -->
+		<ul class="pages nav">
+
+			{% for section in site.data.navigation %}
+
+				{% assign currenturl = page.url | remove_first: '/' %}
+
+			    {% if section.url == currenturl or section.title == page.section %}
+
+			    	{% for link in section.subpages %}
+
+			    		{% assign linkclass = nil %}
+
+				    	{% if link.url == currenturl %}
+					        {% assign linkclass = 'active' %}
+					    {% endif %}
+
+						<!-- page -->
+						<li class="{{ linkclass }}">
+						    <a class="page" href="{{ site.baseurl }}/{{ link.url }}">
+						    	{{ link.title }}
+						    </a>
+
+						    {% if link.url == currenturl and page.subsections %}
+
+						    	<ul class="nav">
+						    	{% for subsection in page.subsections %}
+
+						    		<li class="subsection">
+									    <a href="#{{ subsection.id }}">
+									    	- {{ subsection.title }}
+									    </a>
+									</li>
+
+						    	{% endfor %}
+						    	</ul>
+
+						    {% endif %}
+						</li>
+
+					{% endfor %}
+				{% endif %}
+
+			{% endfor %}
+
+		</ul>
+
+	</div>
+
+</section>

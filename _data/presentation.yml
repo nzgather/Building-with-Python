@@ -1,0 +1,91 @@
+- sectionname: pythonfoundations
+  slides:
+
+    - filename: title-page.md
+      class: title-slide
+
+    - filename: what-is-python.md
+      class: centered-slide
+
+    - filename: readability-and-syntax.md
+      class: centered-slide
+
+    - filename: install-and-run.md
+      class: centered-slide
+
+    - filename: python-versions.md
+      class: centered-slide
+
+    - filename: real-world-uses.md
+      class: centered-slide
+
+    - filename: usage-examples.md
+      class: centered-slide
+
+    - filename: language-popularity.md
+      class: centered-slide
+
+    - filename: benefits-of-learning.md
+      class: centered-slide
+
+    - filename: common-concepts.md
+      class: centered-slide
+
+    - filename: diverse-uses.md
+      class: centered-slide
+
+    - filename: employable-skill-set.md
+      class: centered-slide
+
+    - filename: workshop-goals.md
+      class: centered-slide
+
+    - filename: not-a-crash-course.md
+      class: centered-slide
+
+    - filename: summary.md
+      class: centered-slide
+
+
+
+- sectionname: languagebasics
+  slides:
+
+    - filename: title-page.md
+      class: title-slide
+
+
+
+- sectionname: appstructure
+  slides:
+
+    - filename: title-page.md
+      class: title-slide
+
+
+
+- sectionname: interactivity
+  slides:
+
+    - filename: title-page.md
+      class: title-slide
+
+
+
+- sectionname: gameloop
+  slides:
+
+    - filename: title-page.md
+      class: title-slide
+
+
+
+- sectionname: endsummary
+  slides:
+
+    - filename: feedback.md
+      class: centered-slide
+
+
+
+
