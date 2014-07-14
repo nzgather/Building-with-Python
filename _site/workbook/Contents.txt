@@ -1,0 +1,11 @@
+> These files will be included in your book:
+
+overview.md
+installation.md
+power-of-python.md
+language-basics.md
+creating-programs.md
+interactivity.md
+game-loops.md
+customisation.md
+summary.md
