@@ -1,27 +1,34 @@
-# Building the Web
+# Building with Python
 
-These are the slides used for all Building the Web workshops.
+This project is a full website containing presentation slides, workbook and extra projects for beginner programmers interested in learning Python.
 
-## View the Slideshow
+The site is designed to be used alongside a workshop deliverd by the Gather Workshops team, but can also be used and explored by anyone without the need for a workshop.
 
-A live version of the slide deck is hosted on GitHub [here](http://nzgather.github.io/Building-the-Web/presentation).
+You can view the live site [here](http://nzgather.github.io/Building-with-Python).
 
-You can jump to the following sections:
 
- - [Web Foundations](http://nzgather.github.io/Building-the-Web/presentation/webfoundations)
- - [Page Structure](http://nzgather.github.io/Building-the-Web/presentation/pagestructure)
- - [HTML Basics](http://nzgather.github.io/Building-the-Web/presentation/htmlbasics)
- - [CSS Basics](http://nzgather.github.io/Building-the-Web/presentation/cssbasics)
- - [Site Builder](http://nzgather.github.io/Building-the-Web/presentation/sitebuilder)
 
-## Presenter Notes
 
-Presenter notes are available by pressing the 's' key on your keyboard while viewing the live slide deck. Presenter notes are displayed in a new window, but navigation from the speaker notes are linked to the original window.
+## Teachers
 
-When presenting, the optimal layout is "extended desktop" rather than "mirror screens". You would then have the full screen slide deck on the projector screen, and the speaker notes displayed on your laptop.
+Please feel free to use anything from the [Building with Python website](http://nzgather.github.io/Building-with-Python) in your classroom. 
 
-## Dabblet Solutions
+If you have any suggestions for changes, we'd love to hear them. You can contact us via [our website](http://gathergather.co.nz/workshops/contact/).
 
-Every page which has a link to a code challenge on Dabblet also has an example of the expected output.
 
-On any slide which links to Dabblet, the sample output can be viewed by pressing the "down arrow" key on your keyboard. The expected output is displayed using an iframe.
+
+
+
+## Developers
+
+If you'd like to contribute to this project, you will need to install:
+
+- SASS + Compass
+- Jekyll 3.0
+- Anything required to run those
+
+We'd love to receive pull requests, but please submit any changes in small reviewable blocks! One fix per pull request :)
+
+If you'd like to contribute but you're not sure how to get started, please contact us and we can help to get you set up.
+
+
